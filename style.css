@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: url(img/soap.jpg);
+  height: 100vh;
+  padding: 10px;
+}
+.container{
+  height: 700px;
+  background-color: white ;
+  width: 750px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+.input-div{
+ display: flex;
+ justify-content: space-around;
+ width: 80%;
+}
+.input-box{
+  text-align: start;
+}
+.inputlar{
+  width: 200px;
+  height: 30px;
+}
+.btn-div{
+  display: flex;
+  width: 80% ;
+  justify-content: space-around;
+}
+.check-box-div1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.hesap-sonuc-box{
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  padding: 6px;
+  width: 100%;
+}
+.gider-boxes{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow:auto;
+  border-radius: 3px;
+}
+.gider-box{
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: palevioletred;
+}
+.icons{
+  font-size: 23px;
+  display: flex;
+  gap: 10px;
+}
+.icons :nth-child(1){
+  cursor: pointer;
+}
+.icons :nth-child(2){
+  cursor: pointer;
+}

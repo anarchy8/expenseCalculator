@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fight Club</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div id="container" class="container">
+      <h1>HARCAMA HESAPLA</h1>
+
+      <div class="input-div">
+        <div class="input-box">
+          <p style="font-size: 30px">alınan ürün</p>
+          <input id="ürün-input" class="inputlar" type="text" />
+        </div>
+        <div class="input-box">
+          <p style="font-size: 30px">
+            price<i class="bi bi-currency-dollar"></i>
+          </p>
+          <input
+            id="fiyat-input"
+            class="inputlar"
+            type="number"
+            min="0"
+            max="1000000"
+          />
+        </div>
+      </div>
+
+      <div class="btn-div">
+        <div class="check-box-div" style="width: 100px">
+          <button id="ekle-btn" class="ekle-btn box-btns">ekle</button>
+        </div>
+      </div>
+
+      <div class="hesap-sonuc-box">
+        <h2 id="hesap-sonuc">toplam harcama : 9999999</h2>
+      </div>
+
+      <div id="gider-boxes" class="gider-boxes">
+         <!-- <div class="gider-boxes">
+          <div class="gider-box">
+            <h2 id="ürün">örnek</h2>
+            <h2 id="ürün-fiyat">500</h2>
+            <div class="icons">
+              <i id="ödendi-btn" class="bi bi-credit-card-fill"></i>
+              <i id="sil-btn" class="bi bi-trash3-fill"></i>
+            </div>
+          </div>
+        </div>  -->
+      </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
